@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Mask" cx="20" cy="20" r="20" fill="#8e6391"/>
+    </clipPath>
+  </defs>
+  <g id="Group_311" data-name="Group 311" transform="translate(-879 -305)">
+    <g id="Group_274" data-name="Group 274" transform="translate(0 67)">
+      <g id="Ico" transform="translate(879 238)">
+        <g id="bg">
+          <circle id="Mask-2" data-name="Mask" cx="20" cy="20" r="20" fill="#8e6391"/>
+        </g>
+      </g>
+    </g>
+    <path id="Path_744" data-name="Path 744" d="M53.033,114.289s2.238,1.655,2.645,2.943H57V122.2s-2.848,2.667-5.086,2.667l-1.017,3.4H47.743l-.61-1.655H40.419l-.305,1.655h-2.95l-.916-3.311a6.738,6.738,0,0,1-2.645-5.15v-.368H29.839a.784.784,0,1,1,0-1.563H33.7c.509-4.414,3.866-6.989,8.952-7.541,2.95-.276,6,.276,7.528,2.023,0,0,2.34-1.839,4.272-1.379C54.457,110.979,53.033,111.438,53.033,114.289Zm-6.409-1.839H41.945a.693.693,0,1,0,0,1.379h4.679A.693.693,0,1,0,46.624,112.45Zm4.679,3.311a1.429,1.429,0,1,0,0,2.851,1.438,1.438,0,1,0,0-2.851Z" transform="translate(856 205.732)" fill="#fff" fill-rule="evenodd"/>
+  </g>
+</svg>
