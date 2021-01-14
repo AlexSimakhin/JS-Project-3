@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="508" height="380" viewBox="0 0 508 380">
+  <defs>
+    <filter id="Rectangle" x="0" y="0" width="508" height="380" filterUnits="userSpaceOnUse">
+      <feOffset dy="32" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="30" result="blur"/>
+      <feFlood flood-color="#4d7cfe" flood-opacity="0.157"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="bg" transform="translate(90 58)">
+    <g transform="matrix(1, 0, 0, 1, -90, -58)" filter="url(#Rectangle)">
+      <path id="Rectangle-2" data-name="Rectangle" d="M10.013,0H317.987A10.006,10.006,0,0,1,328,10V190a10.006,10.006,0,0,1-10.013,10H10.013A10.006,10.006,0,0,1,0,190V10A10.006,10.006,0,0,1,10.013,0Z" transform="translate(90 58)" fill="#4764d6"/>
+    </g>
+    <path id="Rectangle_Copy" data-name="Rectangle Copy" d="M0,10.732A10,10,0,0,1,14.016,1.573l93.9,41.174L18.166,169.726A10,10,0,0,1,0,163.954Z" transform="translate(0 4.31)" fill="rgba(37,38,49,0.06)"/>
+    <path id="Rectangle_Copy_2" data-name="Rectangle Copy 2" d="M0,10.011A10,10,0,0,1,14.016.853l93.9,41.174L18.166,169.006A10,10,0,0,1,0,163.234Z" transform="translate(177.059 0) rotate(90)" fill="rgba(37,38,49,0.06)"/>
+  </g>
+</svg>

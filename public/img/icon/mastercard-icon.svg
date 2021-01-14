@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="41" height="28" viewBox="0 0 41 28">
+  <g id="Icons_Master_Card" data-name="Icons/Master Card" transform="translate(-0.231)">
+    <rect id="bg" width="41" height="28" rx="4" transform="translate(0.231)" fill="#f8fafb"/>
+    <g id="Master_Card" data-name="Master Card" transform="translate(12.229 9.162)">
+      <ellipse id="Oval" cx="4.949" cy="5.067" rx="4.949" ry="5.067" transform="translate(0 0)" fill="#ee0005"/>
+      <ellipse id="Oval-2" data-name="Oval" cx="4.949" cy="5.067" rx="4.949" ry="5.067" transform="translate(6.149 0)" fill="#f9a000"/>
+      <path id="Shape" d="M0,3.971A5.1,5.1,0,0,0,1.875,7.942,5.1,5.1,0,0,0,3.749,3.971,5.1,5.1,0,0,0,1.875,0,5.1,5.1,0,0,0,0,3.971Z" transform="translate(6.149 1.096)" fill="#ff6300"/>
+    </g>
+  </g>
+</svg>

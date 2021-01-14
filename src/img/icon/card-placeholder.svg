@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="506" height="40" viewBox="0 0 506 40">
+  <g id="item" transform="translate(20 -1)">
+    <rect id="Rectangle" width="117" height="8" transform="translate(62 23)" fill="#e8ecef"/>
+    <rect id="Rectangle_Copy" data-name="Rectangle Copy" width="70" height="8" transform="translate(416 23)" fill="#e8ecef"/>
+    <rect id="Rectangle_Copy_9" data-name="Rectangle Copy 9" width="229" height="8" transform="translate(62 7)" fill="#e8ecef"/>
+    <rect id="Rectangle_Copy_10" data-name="Rectangle Copy 10" width="115" height="8" transform="translate(371 7)" fill="#e8ecef"/>
+    <g id="Icons_Master_Card" data-name="Icons/Master Card" transform="translate(-20 1)">
+      <rect id="bg" width="58" height="40" rx="4" transform="translate(0)" fill="#e8ecef"/>
+    </g>
+  </g>
+</svg>

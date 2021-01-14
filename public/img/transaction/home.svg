@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="Group_271" data-name="Group 271" transform="translate(-879 -165)">
+    <g id="Ico" transform="translate(879 165)">
+      <g id="bg">
+        <circle id="Mask" cx="20" cy="20" r="20" fill="#6d789d"/>
+      </g>
+    </g>
+    <path id="Path_741" data-name="Path 741" d="M15.087,18.738a.134.134,0,0,0-.087.071ZM15,18.809v9.764C15,29.762,15.238,30,16.457,30h3.4c1.219,0,1.457-.224,1.457-1.427V24.789h4.371v3.8c0,1.188.248,1.411,1.457,1.406.019.014,3.4,0,3.4,0,1.229,0,1.457-.25,1.457-1.421V19.1c0-.038-.044-.071-.131-.109L23.5,12l-8.413,6.738Z" transform="translate(876 164)" fill="#fff" fill-rule="evenodd"/>
+  </g>
+</svg>

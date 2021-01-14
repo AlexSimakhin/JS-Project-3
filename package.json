@@ -1,0 +1,61 @@
+{
+  "homepage": "https://alexsimakhin.github.io/JS-Project-3",
+  "name": "js-personal-projects",
+  "version": "0.0.1",
+  "description": "Lectrum JS + ES6 course personal projects",
+  "author": {
+    "name": "Alex Simakhin",
+    "email": "alexsimakhin@gmail.com"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "cross-env NODE_ENV=production webpack --config webpack/webpack.config.prod.js",
+    "start": "webpack serve --mode development --env development --config webpack/webpack.config.dev.js",
+    "start:prod": "npm run build && serve build/",
+    "eslint:fix": "eslint --fix src"
+  },
+  "keywords": [
+    "webpack",
+    "frontend",
+    "es6",
+    "javascript"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/preset-env": "^7.12.1",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.2.1",
+    "cross-env": "^7.0.2",
+    "css-loader": "^5.0.0",
+    "eslint": "^7.11.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "file-loader": "^6.1.1",
+    "gh-pages": "^3.1.0",
+    "html-webpack-plugin": "^4.5.0",
+    "husky": "^4.3.0",
+    "mini-css-extract-plugin": "^1.0.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.0.3",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.1.3",
+    "webpack-cli": "^4.0.0",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.2.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "chart.js": "^2.9.4",
+    "core-js": "^3.6.5",
+    "date-fns": "^2.16.1",
+    "serve": "^11.3.2",
+    "socket.io-client": "^2.3.0",
+    "toastr": "^2.1.4"
+  }
+}

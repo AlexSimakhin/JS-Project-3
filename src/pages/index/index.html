@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Iron Bank</title>
+</head>
+<body>
+	<main>
+		<section class="info__section log_in__section">
+			<div class="container">
+				<svg xmlns="http://www.w3.org/2000/svg" width="270" height="37" viewBox="0 0 270 37" class="logo">
+				    <text id="io" transform="translate(0 29)" fill="#0f0f0f" font-size="27" font-family="NotoSans-Bold, Noto Sans" letter-spacing="0.027em" font-weight="700">
+				        <tspan x="0" y="0">Железный </tspan>
+				        <tspan y="0" font-family="AppleColorEmoji, Apple Color Emoji" font-weight="400">⚔️</tspan>
+				        <tspan y="0" xml:space="preserve">Банк</tspan>
+				    </text>
+				</svg>
+
+				<div id="login" style="display: none;" class="log_in__section__wrap">
+                    <h1 class="title__h1 section__title">Вход в Банк</h1>
+                    <h2 class="title__h2 section__subtitle">С возвращением! Пройдите авторизацию, для того чтобы пользоваться банковскими услугами.</h2>
+                    <form id="loginForm" action="" method="" class="form">
+                        <label class="form__label" for="email">Электропочта</label>
+                        <input class="form__input" name="email" type="email" id="email" placeholder="your@email.com">
+                        <label class="form__label" for="password">Пароль</label>
+                        <input class="form__input" name="password" type="password" id="password" placeholder="Введите свой пароль">
+                        <label class="form__label form__checkbox" for="savePassword">
+                            <input type="checkbox" id="savePassword" checked="">
+                            <span class="checkmark"></span>
+                            Сохранить логин и пароль
+                        </label>
+                        <input class="form__button form__submit" type="submit" value="Войти в Банк">
+                    </form>
+                    <div class="additional__links">
+                        <p class="additional__links--remark">Нет аккаунта в нашем Банке?</p>
+                        <a id="signUpButton" class="additional__links--link" href="#">Зарегистрироваться</a>
+                    </div>
+				</div>
+				
+				<div id="registration" class="register__section__wrap">
+					<h1 class="title__h1 section__title">Регистрация в Банке</h1>
+					<h2 class="title__h2 section__subtitle">Зарегистрируйтесь в личном кабинете, если вы хотите использовать услуги банка.</h2>
+
+					<form id="regForm" action="" method="" class="form">
+						<label class="form__label" for="registerName">Имя и фамилия</label>
+						<input class="form__input" name="name" type="text" id="registerName" placeholder="Пётр Сметанников">
+
+						<label class="form__label" for="registerEmail">Электропочта</label>
+						<input class="form__input" name="email" type="email" id="registerEmail" placeholder="your@email.com">
+
+						<label class="form__label" for="registerTel">Телефонный номер</label>
+						<input class="form__input" name="tel" type="tel" id="registerTel" placeholder="+380975556677">
+
+						<label class="form__label" for="registerPassword">Пароль</label>
+						<input class="form__input" name="password" type="password" id="registerPassword" placeholder="Введите свой пароль">
+
+						<label class="form__label form__checkbox" for="registerTerms">
+							<input type="checkbox" name="terms" id="registerTerms" checked="">
+							<span class="checkmark"></span>
+							Я согласен с положениями Банка
+
+						</label>
+
+						<input class="form__button form__submit" type="submit" value="Зарегистрироваться">
+					</form>
+
+					<div class="additional__links">
+						<p class="additional__links--remark">У вас уже есть аккаунт?</p> <a id="signInButton" class="additional__links--link" href="#">Войти</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="decorative__section">
+			<img class="decorative__section__img" src="img/scene_3.svg" alt="">
+		</section>
+	</main>
+	
+</body>
+</html>

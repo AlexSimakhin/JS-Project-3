@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="270" height="37" viewBox="0 0 270 37">
+    <text id="io" transform="translate(0 29)" fill="#0f0f0f" font-size="27" font-family="NotoSans-Bold, Noto Sans" letter-spacing="0.027em" font-weight="700">
+        <tspan x="0" y="0">Железный </tspan>
+        <tspan y="0" font-family="AppleColorEmoji, Apple Color Emoji" font-weight="400">⚔️</tspan>
+        <tspan y="0" xml:space="preserve"> Банк</tspan>
+    </text>
+</svg>
